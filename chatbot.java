@@ -27,14 +27,16 @@ public class chatbot
      
         else
         {
-            System.out.println(" How long until you turn " + (++age) + "?");
+            System.out.println(" How many days until you turn " + (++age) + "?");
+            int answer = keyboard.nextInt();
+            System.out.println(answer + " ?. Thats closer than you think. You're getting old fast");
         }
         
-        String answer = "not bye";
-        while (! answer.equals("bye") && (! answer.equals("Bye")))
+        String answer2 = "not bye";
+        while (! answer2.equals("bye") && (! answer2.equals("Bye")))
         {
             System.out.println("Tell me one of your hobbies or say bye to exit");
-            answer  = keyboard.nextLine();
+            answer2  = keyboard.nextLine();
             
         }
         
