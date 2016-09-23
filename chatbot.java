@@ -29,6 +29,7 @@ public class chatbot
         {
             System.out.println(" How many days until you turn " + (++age) + "?");
             int answer = keyboard.nextInt();
+            keyboard.nextLine();
             System.out.println(answer + " ?. Thats closer than you think. You're getting old fast");
         }
         
